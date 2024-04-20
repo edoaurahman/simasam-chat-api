@@ -17,7 +17,7 @@ import { TaskServiceModule } from './task-service/task-service.module';
       type: 'mysql',
       host: 'localhost',
       port: 3306,
-      username: 'root',
+      username: 'edoaurahman',
       password: 'edo24123',
       database: 'simasam',
       entities: [MessageQueue],

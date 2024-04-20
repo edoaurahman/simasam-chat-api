@@ -14,6 +14,6 @@ export class MessageQueue {
   @Column({ type: 'text' })
   message: string;
 
-  @Column({ type: 'timestamp' })
+  @Column({ type: 'datetime' })
   time: string;
 }

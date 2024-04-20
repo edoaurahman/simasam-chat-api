@@ -10,6 +10,6 @@ async function bootstrap() {
     optionsSuccessStatus: 204,
     allowedHeaders: 'Content-Type, Accept',
   });
-  await app.listen(3000);
+  await app.listen(3007);
 }
 bootstrap();
