@@ -22,7 +22,7 @@ import { TaskServiceModule } from './task-service/task-service.module';
       database: 'simasam',
       entities: [MessageQueue],
       synchronize: true,
-      timezone: '+00:00',
+      timezone: 'Asia/Jakarta',
     }),
     TaskServiceModule,
   ],
